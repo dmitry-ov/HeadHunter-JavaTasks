@@ -17,7 +17,6 @@ class Travel {
     }
 
     public void doTravel() {
-        if (car == null) throw new IllegalStateException();
         System.out.println((car.getAmortization() * car.getAmortizationConstant() + car.getRepair()) * someInnerLogic());
     }
 
